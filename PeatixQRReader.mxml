@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<ptx:PeatixQRReader xmlns:fx="http://ns.adobe.com/mxml/2009"
+    xmlns:s="library://ns.adobe.com/flex/spark"
+    xmlns:mx="library://ns.adobe.com/flex/mx"
+    xmlns:ptx="com.peatix.*">
+    <fx:Style>
+        @namespace mx "library://ns.adobe.com/flex/mx";
+ 
+        mx|Application {
+            paddingLeft: 0px; 
+            paddingRight: 0px; 
+            paddingTop: 0px;
+            paddingBottom: 0px; 
+            backgroundAlpha: 0.0;
+        }
+    </fx:Style>
+<!--
+        <fx:Declarations>
+            <s:RadioButtonGroup id="ratio" />
+        </fx:Declarations>
+-->
+        <s:HGroup id="panelCamera" width="100%"></s:HGroup>
+        <s:HGroup paddingTop="0">
+            <s:Button id="btnStopStart" label="STOP" fontSize="24" width="150" height="50" />
+        </s:HGroup>
+<!--
+        <s:TileGroup id="tgStart" paddingLeft="10" paddingTop="10">
+            <s:HGroup paddingLeft="10" paddingTop="10">
+                <s:RadioButton groupName="ratio"
+                    id="ratio43"
+                    label="4:3"
+                    value="4"
+                    selected="true"
+                    width="150"/>
+                <s:RadioButton groupName="ratio"
+                    id="ratio11"
+                    label="1:1"
+                    value="1"
+                    width="150"/>
+            </s:HGroup>
+            <s:Button id="btnStart" label="Start QRCode Reader"/>
+        </s:TileGroup>
+-->
+</ptx:PeatixQRReader>
